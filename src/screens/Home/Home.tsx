@@ -13,7 +13,7 @@ export function Home() {
         <LinkButton text='GITHUB' url='https://github.com/fmacedosantos'/>
         <LinkButton text='LEET CODE' url='https://leetcode.com/u/fmacedosantos/'/>
         <LinkButton text='YOUTUBE' url='https://www.youtube.com/@fmacedosantos'/>
-
+        <LinkButton text='INSTAGRAM' url='https://www.instagram.com/fmacedossantos/'/>
     </View>
   );
 }
