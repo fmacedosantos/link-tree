@@ -9,8 +9,14 @@ export function Skills() {
   return (
     <View style={styles.container}>
       <ProfileImage text='Minhas Habilidades'/>
-      <SkillText name={'html5'} text='HTML5' numberStars={5}/>
-      <SkillText name={'css3'} text='CSS' numberStars={3}/>
+      <View>
+        <SkillText name={'language-html5'} text='HTML5' numberStars={5}/>
+        <SkillText name={'language-css3'} text='CSS' numberStars={3}/>
+        <SkillText name={'language-javascript'} text='JAVASCRIPT' numberStars={4}/>
+        <SkillText name={'language-php'} text='PHP' numberStars={4}/>
+        <SkillText name={'language-java'} text='JAVA' numberStars={3}/>
+        <SkillText name={'react'} text='REACT NATIVE' numberStars={3}/>
+      </View>
     </View>
   );
 }
